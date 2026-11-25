@@ -14,15 +14,15 @@ export function FloatingWhatsApp() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Falar com consultor SevenFit no WhatsApp"
-        className="group relative flex h-12 sm:h-12 w-12 sm:w-auto items-center justify-center sm:px-5 rounded-full bg-[#D91636] hover:bg-[#B00E29] text-white shadow-lg shadow-[#0C0C0E]/40 border border-white/15 transition-all active:scale-95"
+        className="group relative flex h-12 w-12 sm:w-auto items-center justify-center sm:px-4 rounded-sm bg-[#121215]/92 hover:bg-[#D91636] text-[#F5F3EF] shadow-2xl shadow-black/50 border border-white/15 backdrop-blur-md transition-colors active:scale-95"
       >
-        <span className="absolute -top-0.5 -right-0.5 flex h-3 w-3">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75" />
-          <span className="relative inline-flex rounded-full h-3 w-3 bg-white" />
+        <span className="relative flex h-2 w-2 sm:mr-2.5">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
         </span>
-        <MessageCircle className="h-5 w-5 sm:mr-2" strokeWidth={2} aria-hidden="true" />
-        <span className="hidden sm:inline text-xs font-semibold uppercase tracking-[0.14em]">
-          Consultor WhatsApp
+        <MessageCircle className="h-4 w-4 sm:mr-2" strokeWidth={1.9} aria-hidden="true" />
+        <span className="hidden sm:inline font-mono-tech text-[11px] font-medium uppercase tracking-[0.14em]">
+          WhatsApp
         </span>
       </a>
     </aside>

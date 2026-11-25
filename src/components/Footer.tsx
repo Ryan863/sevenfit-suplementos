@@ -1,5 +1,6 @@
 import { ArrowRight, AtSign, MapPin, Phone } from "lucide-react";
 import { NAV_LINKS, SEVENFIT_CONTACT } from "@/lib/sevenfit-data";
+import { BrandLogo } from "./BrandLogo";
 
 export function Footer() {
   return (
@@ -38,14 +39,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pb-10 border-b border-white/10">
           <div className="md:col-span-5 space-y-3">
-            <div className="flex items-center gap-3">
-              <span className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-[#D91636] font-display text-sm font-bold text-white">
-                7F
-              </span>
-              <span className="font-display text-lg font-bold tracking-[0.14em] uppercase text-white">
-                SEVENFIT
-              </span>
-            </div>
+            <BrandLogo />
             <p className="text-xs leading-relaxed text-zinc-400 max-w-sm">
               {SEVENFIT_CONTACT.fullName} — Suplementação nacional e importada,
               alimentação fit, vestuário esportivo, acompanhamento nutricional e
